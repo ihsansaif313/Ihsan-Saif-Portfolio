@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { DiCssdeck } from "react-icons/di";
 import { Link as LinkR } from "react-router-dom";
-import { FaFacebook, FaGithub, FaLinkedin, FaInstagram, FaPhone, FaVoicemail } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaInstagram} from "react-icons/fa";
 
 const FooterContainer = styled.footer`
   background: linear-gradient(145deg,rgba(32, 32, 65, 0.9),rgb(12, 12, 22));
