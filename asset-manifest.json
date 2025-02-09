@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Ihsan-Saif-Portfolio%20/static/css/main.406a2a13.css",
-    "main.js": "/Ihsan-Saif-Portfolio%20/static/js/main.99d227c9.js",
-    "static/media/close-image.jpg": "/Ihsan-Saif-Portfolio%20/static/media/close-image.5a784229f3eae163acec.jpg",
-    "static/media/ihsan.jpg": "/Ihsan-Saif-Portfolio%20/static/media/ihsan.4747f4fbff577772f83d.jpg",
-    "index.html": "/Ihsan-Saif-Portfolio%20/index.html",
-    "main.406a2a13.css.map": "/Ihsan-Saif-Portfolio%20/static/css/main.406a2a13.css.map",
-    "main.99d227c9.js.map": "/Ihsan-Saif-Portfolio%20/static/js/main.99d227c9.js.map"
+    "main.css": "/Ihsan-Saif-Portfolio/static/css/main.406a2a13.css",
+    "main.js": "/Ihsan-Saif-Portfolio/static/js/main.c3a632fe.js",
+    "static/media/close-image.jpg": "/Ihsan-Saif-Portfolio/static/media/close-image.5a784229f3eae163acec.jpg",
+    "static/media/ihsan.jpg": "/Ihsan-Saif-Portfolio/static/media/ihsan.4747f4fbff577772f83d.jpg",
+    "index.html": "/Ihsan-Saif-Portfolio/index.html",
+    "main.406a2a13.css.map": "/Ihsan-Saif-Portfolio/static/css/main.406a2a13.css.map",
+    "main.c3a632fe.js.map": "/Ihsan-Saif-Portfolio/static/js/main.c3a632fe.js.map"
   },
   "entrypoints": [
     "static/css/main.406a2a13.css",
-    "static/js/main.99d227c9.js"
+    "static/js/main.c3a632fe.js"
   ]
 }
