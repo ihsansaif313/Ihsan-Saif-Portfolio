@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Pizza-shop-React-/static/css/main.406a2a13.css",
-    "main.js": "/Pizza-shop-React-/static/js/main.6c7c2ea6.js",
-    "static/media/close-image.jpg": "/Pizza-shop-React-/static/media/close-image.5a784229f3eae163acec.jpg",
-    "static/media/ihsan.jpg": "/Pizza-shop-React-/static/media/ihsan.4747f4fbff577772f83d.jpg",
-    "index.html": "/Pizza-shop-React-/index.html",
-    "main.406a2a13.css.map": "/Pizza-shop-React-/static/css/main.406a2a13.css.map",
-    "main.6c7c2ea6.js.map": "/Pizza-shop-React-/static/js/main.6c7c2ea6.js.map"
+    "main.css": "/Ihsan-Saif-Portfolio%20/static/css/main.406a2a13.css",
+    "main.js": "/Ihsan-Saif-Portfolio%20/static/js/main.99d227c9.js",
+    "static/media/close-image.jpg": "/Ihsan-Saif-Portfolio%20/static/media/close-image.5a784229f3eae163acec.jpg",
+    "static/media/ihsan.jpg": "/Ihsan-Saif-Portfolio%20/static/media/ihsan.4747f4fbff577772f83d.jpg",
+    "index.html": "/Ihsan-Saif-Portfolio%20/index.html",
+    "main.406a2a13.css.map": "/Ihsan-Saif-Portfolio%20/static/css/main.406a2a13.css.map",
+    "main.99d227c9.js.map": "/Ihsan-Saif-Portfolio%20/static/js/main.99d227c9.js.map"
   },
   "entrypoints": [
     "static/css/main.406a2a13.css",
-    "static/js/main.6c7c2ea6.js"
+    "static/js/main.99d227c9.js"
   ]
 }
