@@ -16,7 +16,7 @@ export const Bio = {
   "—they think for themselves.",
   github: "https://github.com/ihsansaif313",
   resume:
-    "https://drive.google.com/file/d/1dgc4T-Me39vCerU9m4S1wQrpe3Il75Qx/view?usp=sharing",
+    "https://drive.google.com/file/d/1mN1QEGoUorsKPoNAJI0tu37DUs_MYiwZ/view?usp=sharing",
 
   linkedin: "https://www.linkedin.com/in/its-saif-products/",
   

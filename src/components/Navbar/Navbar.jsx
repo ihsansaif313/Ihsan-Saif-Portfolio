@@ -222,7 +222,7 @@ const Navbar = () => {
         <NavLogo to="/">
           <div style={{ display: "flex", alignItems: "center" }}>
             <DiCssdeck size="3rem" color={theme.primary} />
-            <Span>Portfolio</Span>
+            <Span>IHSAN SAIF</Span>
           </div>
         </NavLogo>
 
@@ -248,7 +248,7 @@ const Navbar = () => {
           
           <MobileMenuHeader>
             <DiCssdeck size="3rem" color={theme.primary} />
-            <h3 style={{ margin: "10px 0", color: theme.text_primary }}>Portfolio</h3>
+            <h3 style={{ margin: "10px 0", color: theme.text_primary }}>IHSAN SAIF</h3>
           </MobileMenuHeader>
 
           <MobileMenuItems>

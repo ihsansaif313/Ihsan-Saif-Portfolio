@@ -246,7 +246,7 @@ const HeroSection = () => {
             </a>
           </HeroLeftContainer>
           <HeroRightContainer>
-            <Image src={HeroImage2} alt="Hero" />
+            <Image src={HeroImage2} alt="IHSAN SAIF" />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
