@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants.js";
 import Typewriter from "typewriter-effect";
-import HeroImage2 from "../../images/hamza.jpeg";
+import HeroImage2 from "../../images/ihsan.jpg";
 import HeroBgAnimation from "../HeroBgAnimation";
 
 const HeroContainer = styled.div`
@@ -225,11 +225,11 @@ const HeroSection = () => {
         <HeroInnerContainer>
           <HeroLeftContainer>
             <Title>
-              hi, i am <br />
+              Hi, I am <br />
               {Bio.name}
             </Title>
             <TextLoop>
-              I am a
+              
               <Span>
                 <Typewriter
                   options={{
@@ -240,7 +240,7 @@ const HeroSection = () => {
                 />
               </Span>
             </TextLoop>
-            <Subtitle>{Bio.description}</Subtitle>
+            <Subtitle>{Bio.description}<em>{Bio.em}</em></Subtitle>
             <a href={Bio.resume} target="_blank" rel="noopener noreferrer">
               <ResumeButton>Check Resume</ResumeButton>
             </a>

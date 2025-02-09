@@ -117,8 +117,7 @@ const Projects = () => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          I have worked on a wide range of projects, some of them are following
         </Desc>
 
         <ToggleGroup>
@@ -131,24 +130,14 @@ const Projects = () => {
               ALL
             </ToggleButton>
           )}
-          <Divider />
-          {toggle === "javascript" ? (
-            <ToggleButton active onClick={() => setToggle("javascript")}>
-              JAVASCRIPT
-            </ToggleButton>
-          ) : (
-            <ToggleButton value="all" onClick={() => setToggle("javascript")}>
-              JAVASCRIPT
-            </ToggleButton>
-          )}
-          <Divider />
+       
           {toggle === "html css" ? (
             <ToggleButton active onClick={() => setToggle("html css")}>
-              HTML & CSS
+              HTML , CSS & JAVA SCRIPT
             </ToggleButton>
           ) : (
             <ToggleButton value="all" onClick={() => setToggle("html css")}>
-              HTML & CSS
+              HTML , CSS & JAVA SCRIPT
             </ToggleButton>
           )}
           <Divider />
@@ -162,15 +151,7 @@ const Projects = () => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "full stack" ? (
-            <ToggleButton active onClick={() => setToggle("full stack")}>
-              FULL STACK
-            </ToggleButton>
-          ) : (
-            <ToggleButton value="all" onClick={() => setToggle("full stack")}>
-              FULL STACK
-            </ToggleButton>
-          )}
+         
         </ToggleGroup>
 
         <CardContainer>

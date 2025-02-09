@@ -135,18 +135,11 @@ const EducationCard = ({ education }) => {
           <Date>{education.date}</Date>
         </Body>
       </Top>
-      <Grade>
-        <b>Grade: </b>
-        {education.grade}
-      </Grade>
+      
       <Description>
         <Span>{education.desc}</Span>
       </Description>
-      {education.doc && (
-        <a href={education.doc} target="new">
-          <Document src={education.doc} />
-        </a>
-      )}
+      
     </Card>
   );
 };

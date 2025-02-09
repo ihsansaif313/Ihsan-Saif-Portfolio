@@ -1,8 +1,8 @@
 import React from "react";
 import "./ProductPage.css";
 import cross_icon from "../../images/close-image.jpg";
-import { useParams } from "react-router-dom";
-import { projects } from "../../data/constants";
+// import { useParams } from "react-router-dom";
+// import { projects } from "../../data/constants";
 
 const ProductPage = ({ project, onClose }) => {
   // const { productId } = useParams();

@@ -225,7 +225,7 @@ const Navbar = () => {
     <Nav>
       <NavContainer>
         <NavLogo to="/">
-          <a
+          <l
             style={{
               display: "flex",
               alignItems: "center",
@@ -235,7 +235,7 @@ const Navbar = () => {
             }}
           >
             <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
+          </l>
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={(isOpen) => setIsOpen(!isOpen)} />
@@ -247,7 +247,7 @@ const Navbar = () => {
           <NavLink href="#projects">Projects</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href="https://github.com/HamzaNisar929">
+          <GitHubButton href="https://github.com/ihsansaif313">
             Github Profile
           </GitHubButton>
         </ButtonContainer>

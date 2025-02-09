@@ -7,8 +7,7 @@ import {
   FaFacebook,
   FaGithub,
   FaLinkedin,
-  AiFillTwitterCircle,
-  FaInstagramSquare,
+  FaInstagram,
 } from "react-icons/fa";
 
 const Span = styled.div`
@@ -21,61 +20,81 @@ const NavLogo = styled(LinkR)`
   width: 80%;
   padding: 0 6px;
   display: flex;
-  justify-content: start;
   align-items: center;
   text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+
   @media (max-width: 640px) {
     padding: 0 0px;
   }
 `;
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="Container">
       <div className="Wrapper">
         <NavLogo to="/">
-          <a
-            style={{
-              display: "flex",
-              alignItems: "center",
-              color: "white",
-              marginBottom: "20:",
-              cursor: "pointer",
-            }}
-          >
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
+          <DiCssdeck size="3rem" />
+          <Span>Portfolio</Span>
         </NavLogo>
+
         <div className="SocialMedia">
-          <a href="https://github.com/HamzaNisar929">
+          <a
+            href="https://github.com/ihsansaif313"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
             <FaGithub className="icon github" />
           </a>
-          <a href="">
+          <a
+            href="https://github.com/ihsansaif313"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
             <FaFacebook className="icon facebook" />
           </a>
-          <a href="">
-            <FaLinkedin className="icon  linkedin" />
+          <a
+            href="https://www.linkedin.com/in/its-saif-products/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin className="icon linkedin" />
           </a>
-          <a href="https://www.instagram.com/enigjes/?hl=en">
-            <FaInstagramSquare className="icon instagram" />
+          <a
+            href="https://www.instagram.com/ihsansaif313/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <FaInstagram className="icon instagram" />
           </a>
         </div>
+
         <div className="footer-content">
           <h2>Get In Touch</h2>
           <ul>
-            <li>+93-330-9266-288</li>
+            <li>
+              <a href="tel:+923064500428">+92 306 4500428</a>
+            </li>
             <li>
               <a
-                href="https://mail.google.com/mail/u/0/#inbox"
+                href="mailto:ihsansaifedwardion@gmail.com"
                 className="footer-gmail"
               >
-                tghamzaff@gmail.com
+                Email to Ihsan Saif
               </a>
             </li>
           </ul>
         </div>
+
         <div className="copyright">
-          <p>Copyright 2024 &#169; Portfolio.com - All Rights Reserved</p>
+          <p>Copyright 2024-{currentYear} to Ihsan Saif - All Rights Reserved</p>
         </div>
       </div>
     </div>
