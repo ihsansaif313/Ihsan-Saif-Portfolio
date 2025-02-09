@@ -9,17 +9,17 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import { education } from "../../data/constants";
 import EducationCard from "../Cards/EducationCard";
 
-const Document = styled.img`
-  display: none;
-  height: 70px;
-  width: fit-content;
-  background-color: #000;
-  border-radius: 10px;
-  &:hover {
-    cursor: pointer;
-    opacity: 0.8;
-  }
-`;
+// const Document = styled.img`
+//   display: none;
+//   height: 70px;
+//   width: fit-content;
+//   background-color: #000;
+//   border-radius: 10px;
+//   &:hover {
+//     cursor: pointer;
+//     opacity: 0.8;
+//   }
+// `;
 
 const Container = styled.div`
   display: flex;

@@ -7,10 +7,7 @@ const Skills = () => {
     <div id="skills" className="skills-section-container">
       <div className="skills-wrapper">
         <h2 className="skills-title">Skills</h2>
-        <p className="description">
-          Here are some of my skills on which i am working and have made
-          projects.
-        </p>
+        
         <div className="skills-container">
           {skills.map((item) => {
             return (

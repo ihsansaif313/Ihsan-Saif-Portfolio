@@ -1,6 +1,3 @@
-
-import html2 from "../images/HTML CSS-2.png";
-
 import ihsan from "../images/ihsan.jpg";
 
 export const Bio = {
@@ -20,11 +17,11 @@ export const Bio = {
   github: "https://github.com/ihsansaif313",
   resume:
     "https://drive.google.com/file/d/1dgc4T-Me39vCerU9m4S1wQrpe3Il75Qx/view?usp=sharing",
-  // "https://drive.google.com/file/d/1tV3R8Q4C4TszGno41q6TPTRa28LBpwPr/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+
+  linkedin: "https://www.linkedin.com/in/its-saif-products/",
+  
+  insta: "https://www.instagram.com/ihsansaif313/",
+  facebook: "https://www.facebook.com/ihsan.saifedwardian/",
 };
 
 export const skills = [
@@ -173,18 +170,17 @@ export const education = [
 
 export const projects = [
 
- 
   {
-    id: 12,
-    title: "Portfolio",
-    date: "14 Mar 2024 - 15 Mar 2024",
+    id: 3,
+    title: "DIGITAL TIMEPIECE WEB",
+    date: "July 2024",
     description:
-      "The Personal Portfolio is a web project created to practice and enhance skills in HTML, CSS, and JavaScript. The portfolio showcases various personal projects and skills, with a focus on clean design and user-friendly navigation. The name displayed on the portfolio is the user’s nickname used across the internet, adding a personal touch. This project demonstrates proficiency in front-end development and serves as a digital resume to highlight creative and technical abilities.",
-    image: html2,
+      "I crafted a premium horological interface that merges luxury watch design with modern web technologies, featuring a dynamic chronograph with 3D depth, photorealistic materials, and mechanical animations. Built with pure CSS and JavaScript, this timepiece showcases diamond-cut bezel detailing, a kinetic sweeping second hand, and interactive complications displaying AM/PM/day—all rendered through advanced gradient layering, transform matrices, and custom animations. The design implements luxury typography (Playfair Display), multi-layered shadows for depth perception, and responsive material textures simulating brushed gold/platinum, while maintaining cross-browser compatibility. This project demonstrates mastery of CSS spatial design, complex gradient patterns, and performance-optimized animations, embodying the precision of Swiss watchmaking translated into responsive web components.",
+    image: "https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tags: ["HTML", "CSS", "Javascript"],
-    category: "html css",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+    category: "html css javascript",
+    github: "https://github.com/ihsansaif313/WEB-DIGITAL-CLOCK",
+    webapp: "https://ihsansaif313.github.io/WEB-DIGITAL-CLOCK/",
     member: [
       {
         name: "IHSAN SAIF",
@@ -192,7 +188,63 @@ export const projects = [
       },
     ],
   },
+
  
+  {
+    id: 1,
+    title: "PORTFOLIO",
+    date: "September 2024",
+    description:
+      "This portfolio website is built using HTML, CSS, and JavaScript, featuring a responsive design optimized for various devices. Key features include a navigation bar, sections for projects and skills, and a contact form that utilizes EmailJS for message delivery. The layout is styled with Tailwind CSS for a modern look. ",
+    image: "https://images.unsplash.com/photo-1545665277-5937489579f2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["HTML", "CSS", "Javascript","Tailwind"],
+    category: "html css javascript",
+    github: "https://github.com/ihsansaif313/My-Portfolio",
+    webapp: "https://ihsansaif313.github.io/My-Portfolio/",
+    member: [
+      {
+        name: "IHSAN SAIF",
+        img: ihsan,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "WEB CALCULATOR",
+    date: "July 2024",
+    description:
+      "A simple web-based calculator built with HTML, CSS, and JavaScript. It features a clean interface with buttons for digits, basic operations, and functional buttons (AC, DEL). Users can input expressions and evaluate them using the '=' button. The design includes a gradient background and modern button styling, providing an engaging user experience. ",
+    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "html css javascript",
+    github: "https://github.com/ihsansaif313/web-calculator",
+    webapp: "https://ihsansaif313.github.io/web-calculator/",
+    member: [
+      {
+        name: "IHSAN SAIF",
+        img: ihsan,
+      },
+    ],
+  },
+  
+  {
+    id: 4,
+    title: "React Pizza Shop",
+    date: "December 2024",
+    description:
+      "A dynamic restaurant interface showcasing modern React development practices. Built with React 18 and Vite, this responsive web app features real-time menu updates, automatic business hour calculations, and inventory management. Key implementations include dynamic component rendering based on API-like pizza data, CSS-moduled styling for maintainable UI components, and intelligent sold-out status handling. The interface provides immediate visual feedback through conditional formatting and inventory badges, while maintaining clean typography and intuitive user interactions. This project demonstrates strong skills in component architecture, state-free data flow, and UI/UX optimization – solving real-world problems like time-sensitive availability displays and mobile-first responsive layouts. The codebase emphasizes readability through modern JavaScript patterns and semantic HTML structure, serving as an excellent example of production-ready React development.",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["react","css","html","JavaScript"],
+    category: "react",
+    github: "https://github.com/ihsansaif313/Pizza-shop-React-",
+    webapp: "https://ihsansaif313.github.io/Pizza-shop-React-/",
+    member: [
+      {
+        name: "IHSAN SAIF",
+        img: ihsan,
+      },
+    ],
+  },
  
 
 ];

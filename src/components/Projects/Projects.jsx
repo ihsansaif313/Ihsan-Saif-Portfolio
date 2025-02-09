@@ -130,13 +130,13 @@ const Projects = () => {
               ALL
             </ToggleButton>
           )}
-       
-          {toggle === "html css" ? (
-            <ToggleButton active onClick={() => setToggle("html css")}>
+           <Divider />
+          {toggle === "html css javascript" ? (
+            <ToggleButton active onClick={() => setToggle("html css javascript")}>
               HTML , CSS & JAVA SCRIPT
             </ToggleButton>
           ) : (
-            <ToggleButton value="all" onClick={() => setToggle("html css")}>
+            <ToggleButton value="all" onClick={() => setToggle("html css javascript")}>
               HTML , CSS & JAVA SCRIPT
             </ToggleButton>
           )}
@@ -150,7 +150,7 @@ const Projects = () => {
               REACT
             </ToggleButton>
           )}
-          <Divider />
+          
          
         </ToggleGroup>
 

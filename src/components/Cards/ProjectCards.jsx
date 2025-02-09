@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { AiFillGithub } from "react-icons/ai";
+import { BsFillPlayFill } from "react-icons/bs";
 
 const Button = styled.button`
   display: none;
@@ -15,6 +17,7 @@ const Button = styled.button`
   cursor: pointer;
   transition: all 0.8s ease-in-out;
 `;
+
 const Card = styled.div`
   width: 330px;
   height: 490px;
@@ -31,7 +34,6 @@ const Card = styled.div`
   transition: all 0.5s ease-in-out;
   &:hover {
     transform: translateY(-10px);
-    // box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
     filter: brightness(1.1);
     box-shadow: 0 12px 15px rgba(133, 76, 230, 0.3),
       0 -12px 15px rgba(133, 76, 230, 0.3), 12px 0 15px rgba(133, 76, 230, 0.3),
@@ -75,6 +77,7 @@ const Details = styled.div`
   gap: 0px;
   padding: 0px 2px;
 `;
+
 const Title = styled.div`
   font-size: 20px;
   font-weight: 600;
@@ -115,6 +118,7 @@ const Members = styled.div`
   align-items: center;
   padding-left: 10px;
 `;
+
 const Avatar = styled.img`
   width: 38px;
   height: 38px;
@@ -129,10 +133,80 @@ const StyledLink = styled(Link)`
   text-decoration: none;
   display: block;
 `;
+
 const MemberName = styled.div`
   font-size: 14px;
   margin-left: 10px;
   color: #b1b2b3;
+`;
+
+const DemoButton = styled.a`
+  display: flex;
+  margin: 2px 5px;
+  text-decoration:none;
+  align-items: center;
+  justify-content: center;
+  padding: -0.4em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  &:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  &:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
 `;
 
 const ProjectCards = ({ project }) => {
@@ -142,20 +216,43 @@ const ProjectCards = ({ project }) => {
         <Image src={project.image} />
         <Tags>
           {project.tags?.map((tag, index) => (
-            <Tag>{tag}</Tag>
+            <Tag key={index}>{tag}</Tag>
           ))}
         </Tags>
         <Details>
           <Title>{project.title}</Title>
           <Date>{project.date}</Date>
+          <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+            {project.github && (
+              <a
+                href={project.github}
+                onClick={(e) => e.stopPropagation()}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub size={24} />
+              </a>
+            )}
+            {project.webapp && (
+              <DemoButton
+                href={project.webapp}
+                onClick={(e) => e.stopPropagation()}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsFillPlayFill size={16} style={{ marginRight: "4px" }} />
+                Live Demo
+              </DemoButton>
+            )}
+          </div>
           <Description>{project.description}</Description>
         </Details>
         <Members>
-          {project.member?.map((member) => (
-            <>
+          {project.member?.map((member, index) => (
+            <React.Fragment key={index}>
               <Avatar src={member.img} />
               <MemberName>{member.name}</MemberName>
-            </>
+            </React.Fragment>
           ))}
         </Members>
         {/* <Button>View Project</Button> */}
