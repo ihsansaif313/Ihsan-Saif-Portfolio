@@ -1,3 +1,6 @@
+/* ProductPage.css */
+
+/* Original Desktop Styles */
 .project-popup {
   position: absolute;
   z-index: 10;
@@ -6,6 +9,7 @@
   background-color: #00000090;
   display: grid;
 }
+
 .project-popup-container {
   place-self: center;
   width: max(23vw, 500px);
@@ -21,11 +25,13 @@
     -12px 0 15px rgba(133, 76, 230, 0.3);
   font-size: 14px;
 }
+
 .project-popup-container img {
   width: 100%;
   height: 100%;
   border-radius: 8px;
 }
+
 .project-tags {
   width: 100%;
   display: flex;
@@ -34,6 +40,7 @@
   gap: 8px;
   margin-top: 4px;
 }
+
 .project-tags .tag {
   font-size: 12px;
   font-weight: 400;
@@ -42,6 +49,7 @@
   padding: 2px 8px;
   border-radius: 10px;
 }
+
 .description {
   margin-top: 20px;
   font-size: 16px;
@@ -49,8 +57,104 @@
   letter-spacing: 0.3px;
   text-align: left;
 }
+
 .close-image img {
-  height: 20px;
+  height: 20ypx;
   width: 20px;
   cursor: pointer;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .project-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .project-popup-container {
+    width: 100%;
+    max-width: 500px;
+    height: 70vh;
+    max-height: 70vh;
+    padding: 15px;
+    gap: 15px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+  }
+
+ 
+
+  
+  .close-image {
+    display: none;
+  }
+  
+  
+
+
+ 
+
+  .project-popup-container img {
+    height: 22vh;
+    max-height: 22vh;
+    width: auto;
+    margin: 0 auto 10px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  .project-tags {
+    flex-shrink: 0;
+    gap: 6px;
+  }
+
+  .project-tags .tag {
+    font-size: 10px;
+    padding: 2px 8px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-y: visible;
+    min-height: min-content;
+  }
+
+  .product-page-title {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 10px;
+  }
+
+  .product-page-title h2 {
+    font-size: 1.4rem;
+    margin-top: 5px;
+  }
+
+  .product-page-title p {
+    font-size: 0.9rem;
+  }
+
+  /* Scrollbar Styling */
+  .project-popup-container::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .project-popup-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .project-popup-container::-webkit-scrollbar-thumb {
+    background: #854ce6;
+    border-radius: 4px;
+  }
 }

@@ -11,7 +11,7 @@ export const Bio = {
     
   ],
   description:
-    " a frontend developer with a mission to bridge the gap between sleek user interfaces and cutting-edge AI. I’ve spent the last [X months/years] mastering React, TypeScript, and Next.js to build pixel-perfect, performant web apps. Now, I’m diving deep into AI/ML to create applications that don’t just look good ",
+    " a frontend developer with a mission to bridge the gap between sleek user interfaces and cutting-edge AI. I’ve spent the much time  mastering React, TypeScript, and Next.js to build pixel-perfect, performant web apps. Now, I’m diving deep into AI/ML to create applications that don’t just look good ",
   em:
   "—they think for themselves.",
   github: "https://github.com/ihsansaif313",

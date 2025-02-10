@@ -5,15 +5,11 @@ import { AiFillGithub } from "react-icons/ai";
 import { BsFillPlayFill } from "react-icons/bs";
 import styled from "styled-components";
 
-
-
-// import { useParams } from "react-router-dom";
-// import { projects } from "../../data/constants";
-
 const DemoButton = styled.a`
+  /* Keep your original styled-component styles */
   display: flex;
-margin: 2px 5px;
-text-decoration:none;
+  margin: 2px 5px;
+  text-decoration: none;
   align-items: center;
   justify-content: center;
   padding: -0.4em 2em;
@@ -28,6 +24,7 @@ text-decoration:none;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+
   &:before {
     content: "";
     background: linear-gradient(
@@ -55,6 +52,7 @@ text-decoration:none;
     transition: opacity 0.3s ease-in-out;
     border-radius: 10px;
   }
+
   @keyframes glowing-button-85 {
     0% {
       background-position: 0 0;
@@ -66,6 +64,7 @@ text-decoration:none;
       background-position: 0 0;
     }
   }
+
   &:after {
     z-index: -1;
     content: "";
@@ -80,46 +79,47 @@ text-decoration:none;
 `;
 
 const ProductPage = ({ project, onClose }) => {
-  // const { productId } = useParams();
-  // const project = projects.find((proj) => proj.id === Number(productId));
+  const handleBackdropClick = (e) => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
+
   if (!project) return null;
+
   return (
-    <div className="project-popup">
-      <div className="project-popup-container">
+    <div className="project-popup" onClick={handleBackdropClick}>
+      <div className="project-popup-container" onClick={(e) => e.stopPropagation()}>
         <div className="close-image">
-          <img src={cross_icon} onClick={() => onClose()} alt="" />
+          <img src={cross_icon} onClick={onClose} alt="" />
         </div>
         <img src={project.image} alt="" />
         <div className="project-tags">
-          {project.tags.map((tag) => {
-            return <div className="tag">{tag}</div>;
-          })}
+          {project.tags.map((tag, index) => (
+            <div key={index} className="tag">{tag}</div>
+          ))}
         </div>
         <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
-                    {project.github && (
-                      <a
-                        href={project.github}
-                        onClick={(e) => e.stopPropagation()}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <AiFillGithub size={24} />
-                      </a>
-                    )}
-                    {project.webapp && (
-                      <DemoButton
-                        href={project.webapp}
-                        onClick={(e) => e.stopPropagation()}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <BsFillPlayFill size={16} style={{ marginRight: "4px" }} />
-                        Live Demo
-                      </DemoButton>
-                    )}
-                  </div>
-
-
+          {project.github && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillGithub size={24} />
+            </a>
+          )}
+          {project.webapp && (
+            <DemoButton
+              href={project.webapp}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsFillPlayFill size={16} style={{ marginRight: "4px" }} />
+              Live Demo
+            </DemoButton>
+          )}
+        </div>
         <div className="product-page-title">
           <h2>{project.title}</h2>
           <p>{project.date}</p>

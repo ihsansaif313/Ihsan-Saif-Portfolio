@@ -4,6 +4,7 @@ import { Bio } from "../../data/constants.js";
 import Typewriter from "typewriter-effect";
 import HeroImage2 from "../../images/ihsan.jpg";
 import HeroBgAnimation from "../HeroBgAnimation";
+import { red } from "@mui/material/colors";
 
 const HeroContainer = styled.div`
   background-color: ${({ theme }) => theme.card_light};
@@ -146,7 +147,6 @@ const Subtitle = styled.div`
   line-height: 32px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
-
   @media (max-width: 960px) {
     text-align: center;
   }
