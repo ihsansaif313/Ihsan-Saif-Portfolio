@@ -40,20 +40,21 @@
 
 ```mermaid
 gantt
-    title Professional Journey
-    dateFormat  YYYY-MM-DD
+    title Professional Timeline
+    dateFormat  YYYY-MM
     axisFormat %Y
     
     section Education
-    SSC (Matriculation) : done, edu1, 2017-09-01, 2021-06-30
-    HSSC (ICS Computer) : done, edu2, 2021-09-01, 2023-06-30
-    BS AI : active, edu3, 2023-09-01, 2027-06-30
+    Matriculation (SSC) :a1, 2017-09, 2021-06
+    Intermediate (HSSC) :a2, after a1, 2023-06
+    BS Artificial Intelligence :active, a3, 2023-09, 2027-06
     
     section Career
-    Computer teacher : done, 2022-08-01, 2023-03-31
-    Freelance Development : active, 2023-04-01, 2030-12-12
-    
+    Computer Teacher :done, 2022-08, 2023-03
+    Freelance Developer :active, 2023-04, 2025-12
 ```
+
+🔵 Current ▰▰▰▰ | 🟢 Completed
 
 ## 🤝 **Connect Professionally**
 
