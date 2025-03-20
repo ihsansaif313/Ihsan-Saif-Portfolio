@@ -10,7 +10,7 @@
     <a href="https://linkedin.com/in/its-saif-products" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile">
     </a>
-    <a href="[https://drive.google.com/your-resume-link](https://drive.google.com/file/d/1mN1QEGoUorsKPoNAJI0tu37DUs_MYiwZ/view)" target="_blank">
+    <a href="https://drive.google.com/your-resume-link](https://drive.google.com/file/d/1mN1QEGoUorsKPoNAJI0tu37DUs_MYiwZ/view)" target="_blank">
       <img src="https://img.shields.io/badge/Resume-View_CV-8B0000?style=for-the-badge&logo=googledrive" alt="Resume">
     </a>
   </p>
@@ -59,7 +59,7 @@ gantt
 
 <div align="center">
   <a href="https://github.com/ihsansaif313" target="_blank">
-    <img src="https://img.shields.io/badge/Explore_Code-15+_Repos-black?style=flat&logo=github" alt="GitHub">
+    <img src="https://img.shields.io/badge/Explore_Code-25+_Repos-black?style=flat&logo=github" alt="GitHub">
   </a>
   
   <a href="https://linkedin.com/in/its-saif-products" target="_blank">
