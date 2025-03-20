@@ -176,7 +176,7 @@ export const projects = [
     date: "July 2024",
     description:
       "I crafted a premium horological interface that merges luxury watch design with modern web technologies, featuring a dynamic chronograph with 3D depth, photorealistic materials, and mechanical animations. Built with pure CSS and JavaScript, this timepiece showcases diamond-cut bezel detailing, a kinetic sweeping second hand, and interactive complications displaying AM/PM/day—all rendered through advanced gradient layering, transform matrices, and custom animations. The design implements luxury typography (Playfair Display), multi-layered shadows for depth perception, and responsive material textures simulating brushed gold/platinum, while maintaining cross-browser compatibility. This project demonstrates mastery of CSS spatial design, complex gradient patterns, and performance-optimized animations, embodying the precision of Swiss watchmaking translated into responsive web components.",
-    image: "https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     tags: ["HTML", "CSS", "Javascript"],
     category: "html css javascript",
     github: "https://github.com/ihsansaif313/WEB-DIGITAL-CLOCK",
@@ -238,6 +238,24 @@ export const projects = [
     category: "react",
     github: "https://github.com/ihsansaif313/Pizza-shop-React-",
     webapp: "https://ihsansaif313.github.io/Pizza-shop-React-/",
+    member: [
+      {
+        name: "IHSAN SAIF",
+        img: ihsan,
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "FAR AWAY TRAVEL",
+    date: "March 2025",
+    description:
+      "This app revolutionizes trip preparation with its intuitive packing list management system. This feature-rich React application empowers travelers to create, organize, and track their packing progress through an elegant interface. Users can easily add items with custom quantities, toggle packed status with a single click, and sort items by input order, description, or completion status. The integrated dashboard displays real-time statistics including total items, packed percentage, and celebratory messages when fully prepared.Built with modern web technologies, it offers a responsive design that works seamlessly across devices, ensuring travelers can manage their lists anywhere. Whether you're packing for a weekend getaway or a month-long expedition, PackMate eliminates the stress of forgotten items while providing a satisfying, interactive packing experience through its clean UI and thoughtful animations.",
+    image: "https://plus.unsplash.com/premium_photo-1675019262990-a4142cfd2432?q=80&w=3869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["react","css","html","JavaScript"],
+    category: "react",
+    github: "https://github.com/ihsansaif313/Far-Away-Travel-React",
+    webapp: "https://ihsansaif313.github.io/Far-Away-Travel-React/",
     member: [
       {
         name: "IHSAN SAIF",
