@@ -263,7 +263,78 @@ export const projects = [
       },
     ],
   },
- 
+  {
+    id: 6,
+    title: "Eat-n-Split",
+    date: "April 2025",
+    description:
+      "A modern React-powered expense manager that simplifies splitting bills with friends. Track balances in real-time, add friends with custom avatars, and effortlessly calculate who owes whom. Features intuitive color-coded balance indicators, dynamic form validation, and seamless state management - perfect for roommates, travelers, and group organizers to maintain financial harmony without the spreadsheet hassle!",
+      image: "https://images.unsplash.com/photo-1592861956120-e524fc739696?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["react","css","html","JavaScript"],
+    category: "react",
+    github: "https://github.com/ihsansaif313/Eat-n-Split",
+    webapp: "https://ihsansaif313.github.io/Eat-n-Split/",
+    member: [
+      {
+        name: "IHSAN SAIF",
+        img: ihsan,
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "React Tip Calculator",
+    date: "April 2025",
+    description:
+      "A modern, elegant tip calculator built with React that helps you quickly determine the total amount to pay including tips. Features a clean interface with smooth animations and professional UX design.",
+      image: "https://plus.unsplash.com/premium_photo-1661610784604-02c82fc7ac6c?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["react","css","html","JavaScript"],
+    category: "react",
+    github: "https://github.com/ihsansaif313/Tip-Calculator-React",
+    webapp: "https://ihsansaif313.github.io/Tip-Calculator-React/",
+    member: [
+      {
+        name: "IHSAN SAIF",
+        img: ihsan,
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Accordion-Component-React",
+    date: "April 2025",
+    description:
+      "This app is a **React-based Accordion Component** designed to display frequently asked questions (FAQs) in a dynamic and interactive manner. It features expandable and collapsible sections, utilizing state management with `useState` to control the visibility of each item. The minimalist and functional design offers a user-friendly experience with clear titles, descriptive text, and icons to indicate the open or closed state of each accordion item. The code is structured for reusability and scalability, making it an excellent choice for enhancing content presentation on websites.",
+      image: "https://plus.unsplash.com/premium_photo-1678216286021-e81f66761751?q=80&w=3500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["react","css","html","JavaScript"],
+    category: "react",
+    github: "https://github.com/ihsansaif313/Accordion-Component-React",
+    webapp: "https://ihsansaif313.github.io/Accordion-Component-React/",
+    member: [
+      {
+        name: "IHSAN SAIF",
+        img: ihsan,
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "React Step Navigation Component",
+    date: "FEB 2025",
+    description:
+      "A simple React component that demonstrates step navigation with isolated state management. This component showcases the use of useState to manage steps and toggle visibility, making it a great learning resource for students. ",
+      image: "https://plus.unsplash.com/premium_photo-1681426506165-b66fb0045b2d?q=80&w=3928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["react","css","html","JavaScript"],
+    category: "react",
+    github: "https://github.com/ihsansaif313/steps-navigation-component",
+    webapp: "https://ihsansaif313.github.io/steps-navigation-component/",
+    member: [
+      {
+        name: "IHSAN SAIF",
+        img: ihsan,
+      },
+    ],
+  },
 
 ];
 
