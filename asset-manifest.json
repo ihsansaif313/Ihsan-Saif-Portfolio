@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Ihsan-Saif-Portfolio/static/css/main.7289fc08.css",
-    "main.js": "/Ihsan-Saif-Portfolio/static/js/main.96552a79.js",
+    "main.js": "/Ihsan-Saif-Portfolio/static/js/main.e71db573.js",
     "static/media/close-image.jpg": "/Ihsan-Saif-Portfolio/static/media/close-image.5a784229f3eae163acec.jpg",
     "static/media/ihsan.jpg": "/Ihsan-Saif-Portfolio/static/media/ihsan.4747f4fbff577772f83d.jpg",
     "index.html": "/Ihsan-Saif-Portfolio/index.html",
     "main.7289fc08.css.map": "/Ihsan-Saif-Portfolio/static/css/main.7289fc08.css.map",
-    "main.96552a79.js.map": "/Ihsan-Saif-Portfolio/static/js/main.96552a79.js.map"
+    "main.e71db573.js.map": "/Ihsan-Saif-Portfolio/static/js/main.e71db573.js.map"
   },
   "entrypoints": [
     "static/css/main.7289fc08.css",
-    "static/js/main.96552a79.js"
+    "static/js/main.e71db573.js"
   ]
 }
