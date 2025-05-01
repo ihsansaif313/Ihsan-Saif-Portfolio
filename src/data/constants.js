@@ -335,6 +335,24 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 10,
+    title: "Text-Expander-React",
+    date: "April 2025",
+    description:
+      "The Cosmic Text Expander is a beautifully animated React component that elegantly truncates long text content and reveals it with a single click. Featuring a stunning space-themed design with twinkling star backgrounds and cosmic color gradients, this component provides a delightful way to manage content length while maintaining a polished user experience. Developers can easily customize the word count threshold, button styles, and color schemes to match their project's aesthetic. With smooth expansion animations, responsive design, and lightweight implementation, it's perfect for blogs, documentation, FAQs, or any interface needing clean expandable sections. The component combines practical functionality with visual appeal, making content expansion feel like an interstellar journey. ",
+      image: "https://images.unsplash.com/photo-1707653057277-6263ebf21ee4?q=80&w=3200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["react","css","html","JavaScript"],
+    category: "react",
+    github: "https://github.com/ihsansaif313/Text-Expander-React",
+    webapp: "https://ihsansaif313.github.io/Text-Expander-React/",
+    member: [
+      {
+        name: "IHSAN SAIF",
+        img: ihsan,
+      },
+    ],
+  },
 
 ];
 
