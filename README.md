@@ -51,7 +51,8 @@ gantt
     
     section Career
     Computer Teacher :done, 2022-08, 2023-03
-    Freelance Developer :active, 2023-04, 2025-12
+    Founded Saif Softy Tech :active, 2023-04, 2025-12
+    Frontend Developer at MIK :active, 2025-04, 2027-12
 ```
 
 🔵 Current ▰▰▰▰ | 🟢 Completed
@@ -59,10 +60,7 @@ gantt
 ## 🤝 **Connect Professionally**
 
 <div align="center">
-  <a href="https://github.com/ihsansaif313" target="_blank">
-    <img src="https://img.shields.io/badge/Explore_Code-25+_Repos-black?style=flat&logo=github" alt="GitHub">
-  </a>
-  
+ 
   <a href="https://linkedin.com/in/its-saif-products" target="_blank">
     <img src="https://img.shields.io/badge/Network-With_Me-blue?style=flat&logo=linkedin" alt="LinkedIn">
   </a>
